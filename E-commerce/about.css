@@ -97,7 +97,7 @@ h2 {
   color: orange;
 }
 
-p {
+.txt {
   display: block;
   font-size: 1.6rem;
   margin-block-start: 0;

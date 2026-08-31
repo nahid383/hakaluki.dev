@@ -148,7 +148,29 @@ main {
   max-width: 150px;
 }
 
-@media (max-width: 700px) {
+.footer {
+  background-color: #285c2b;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer strong {
+  color: orange;
+  transition: color 0.3s ease;
+}
+
+.footer strong:hover {
+  color: #fd8b00;
+}
+
+@media (max-width: 768px) {
   header {
     height: auto;
     padding: 1.2rem 1.5rem;

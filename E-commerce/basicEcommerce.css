@@ -1,45 +1,102 @@
-.top-banner{
-    background-color: orange;
-    font-size: 1.5rem;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    /* padding-top: 0; */
-    /* margin-top: 0; */
-    /* height: 3rem; */
-    
-
+.top-banner {
+  background-color: #426b35;
+  font-size: 1.5rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  /* padding-top: 0; */
+  /* margin-top: 0; */
+  /* height: 3rem; */
 }
 p {
-    display: block;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
-.navbar{
-    display: flex;
-    justify-content: space-between;
+.navbar {
+  display: flex;
+  justify-content: space-between;
 }
 
-.link{
-    align-items: center;
-    justify-content: center;
-    margin-top: 1.5rem;
-    margin-right: 1rem;
-    justify-content: space-between;
-    /* gap: 10; */
+.link {
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+  margin-right: 1rem;
+  justify-content: space-between;
+  /* gap: 10; */
 }
 
-.navlink{
+/* .navlink{
     background-color: ;
+} */
+body {
+  margin: 0;
+  padding: 0;
 }
-body{
-    margin: 0;
-    padding: 0;
+
+main {
+  margin: 2rem;
+  padding: 2rem 6rem;
+  min-height: 500px;
+  background: linear-gradient(0deg, rgb(3, 97, 58), rgb(250, 245, 239));
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-cnt h4 {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 8px 16px;
+  background-color: #426b35;
+  color: white;
+  border-radius: 50px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.main-cnt h3 {
+  margin: 0;
+  color: #243b1f;
+  font-size: 2.5rem;
+  line-height: 1.07;
+  font-weight: 800;
+}
+
+.main-cnt p {
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 20px;
+  background-color: #2f5428;
+  color: white;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1f3d1b;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(47, 84, 40, 0.25);
+}
+
+.hero{
+  
 }

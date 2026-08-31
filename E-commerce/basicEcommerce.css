@@ -22,21 +22,59 @@ p {
 
 .navbar {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  padding: 0 2rem;
 }
 
 .link {
+  display: flex;
   align-items: center;
-  justify-content: center;
   margin-top: 1.5rem;
   margin-right: 1rem;
   justify-content: space-between;
-  /* gap: 10; */
+  gap: 2;
 }
 
-/* .navlink{
-    background-color: ;
+/* header{
+  height: 80px;
+  padding: 0 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
 } */
+header{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+}
+
+.logo {
+  margin: 1rem;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #285c2b;
+}
+
+.logo span {
+  color: orange;
+}
+.navlink {
+  position: relative;
+  color: #263b29;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.navlink:hover {
+  color: #fd8b00;
+}
+
+
 body {
   margin: 0;
   padding: 0;
@@ -97,6 +135,46 @@ main {
   box-shadow: 0 10px 25px rgba(47, 84, 40, 0.25);
 }
 
-.hero{
-  
+.hero {
+  background-color: white;
+  width: 250px;
+  height: 250px;
+  /* margin-left: 3rem; */
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: 2rem;
+  box-shadow: 0 10px 25px rgb(190, 182, 182);
+}
+
+.start-badge {
+  font-size: 3rem;
+  color: #1f3d1b;
+  font-weight: 600;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  max-width: 150px;
+}
+
+@media(max-width: 700px){
+    header{
+        height: auto;
+        padding: 1.2rem 1.5rem;
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+    .logo{
+        font-size: 1.7rem;
+    }
+    .link{
+        gap: 1.2rem;
+    }
+    .navlink{
+        font-size: 0.9rem;
+    }
 }

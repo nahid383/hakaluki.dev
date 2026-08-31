@@ -4,8 +4,6 @@
   justify-content: center;
   text-align: center;
   align-items: center;
-  padding-top: 0;
-  margin-top: 0;
 }
 
 body {
@@ -68,4 +66,47 @@ header {
 
 .navlink:hover {
   color: #fd8b00;
+}
+
+.about-section {
+  margin: 2rem;
+  padding: 2rem 6rem;
+  min-height: 500px;
+  background: linear-gradient(0deg, rgb(3, 97, 58), rgb(250, 245, 239));
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h2 {
+  margin: 0;
+  color: #243b1f;
+  font-size: 3rem;
+  line-height: 1.07;
+  font-weight: 800;
+}
+
+.spn1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #285c2b;
+}
+
+.spn2 {
+  color: orange;
+}
+
+p {
+  display: block;
+  font-size: 1.6rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 2rem;
+  unicode-bidi: isolate;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
 }

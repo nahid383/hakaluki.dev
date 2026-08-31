@@ -4,8 +4,13 @@
   justify-content: center;
   text-align: center;
   align-items: center;
-
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 p {
   display: block;
   margin-block-start: 0;
@@ -18,31 +23,7 @@ p {
   align-items: center;
 }
 
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 2rem;
-}
-
-.link {
-  display: flex;
-  align-items: center;
-  margin-top: 1.5rem;
-  margin-right: 1rem;
-  justify-content: space-between;
-  gap: 2;
-}
-
-/* header{
-  height: 80px;
-  padding: 0 5rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: white;
-} */
-header{
+header {
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -59,6 +40,21 @@ header{
 .logo span {
   color: orange;
 }
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  gap: 2rem;
+}
+
 .navlink {
   position: relative;
   color: #263b29;
@@ -70,12 +66,6 @@ header{
 
 .navlink:hover {
   color: #fd8b00;
-}
-
-
-body {
-  margin: 0;
-  padding: 0;
 }
 
 main {
@@ -137,7 +127,6 @@ main {
   background-color: white;
   width: 250px;
   height: 250px;
-  /* margin-left: 3rem; */
   border-radius: 30px;
   display: flex;
   flex-direction: column;
@@ -159,20 +148,23 @@ main {
   max-width: 150px;
 }
 
-@media(max-width: 700px){
-    header{
-        height: auto;
-        padding: 1.2rem 1.5rem;
-        flex-direction: column;
-        gap: 1.2rem;
-    }
-    .logo{
-        font-size: 1.7rem;
-    }
-    .link{
-        gap: 1.2rem;
-    }
-    .navlink{
-        font-size: 0.9rem;
-    }
+@media (max-width: 700px) {
+  header {
+    height: auto;
+    padding: 1.2rem 1.5rem;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  .logo {
+    font-size: 1.7rem;
+  }
+
+  .link {
+    gap: 1.2rem;
+  }
+
+  .navlink {
+    font-size: 0.9rem;
+  }
 }

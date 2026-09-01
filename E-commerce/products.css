@@ -70,7 +70,7 @@ header {
 }
 
 main {
-  margin: 2rem;
+  margin: 1rem;
   padding: 2rem 6rem;
   min-height: 500px;
   background: linear-gradient(0deg, rgb(3, 97, 58), rgb(250, 245, 239));
@@ -90,7 +90,7 @@ h1 {
   border: 2px solid #243b1f;
   display: flex;
   overflow: hidden;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .search-bar input {
@@ -107,7 +107,7 @@ h1 {
 }
 
 .section-header h3 {
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   color: #0e3605;
   font-size: 2rem;
   line-height: 1.07;
@@ -117,7 +117,7 @@ h1 {
 .section-header p {
   font-size: 1.3rem;
   color: #0e3605;
-  margin: 1rem;
+  /* margin: 1rem; */
   font-weight: 600;
 }
 

@@ -4,24 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Products | Homeline</title>
+    <link rel="stylesheet" href="products.css" />
   </head>
 
+
   <body>
-    <header>
-      <img src="images/logo.png" alt="Homeline Logo" height="100" width="100" />
+   <!-- Announcement Bar -->
+    <div class="top-banner">
+      <p>
+        100% Sustainable & Ethical Sourcing | Free Shipping on Orders Over $50
+      </p>
+    </div>
 
-      <p class="logo">Home<span>line</span></p>
+    <header class="navbar">
+      <a href="basicEcommerce.html">
+        <img src="images/logo.png" alt="logo" height="100" width="100" />
+      </a>
 
-      <nav>
-        <a href="basicEcommerce.html">Home</a>
-        <a href="products.html">Products</a>
-        <a href="about.html">About</a>
-        <a href="#cart-section">Cart</a>
+      <h1 class="logo">Home<span>line</span></h1>
+
+      <nav class="link">
+        <a class="navlink" href="basicEcommerce.html">Home</a>
+        <a class="navlink" href="about.html">About</a>
+        <a class="navlink" href="products.html">Products</a>
+        <a class="navlink" href="#cart-section">Cart</a>
       </nav>
     </header>
 
     <main>
-      <section id="product-section">
+      <section class="product-section">
         <h1>Our Products</h1>
         <!-- Products Section -->
 
@@ -147,7 +158,6 @@
             <button class="cart">Add to Cart</button>
           </div>
         </section>
-      </section>
     </main>
   </body>
 </html>

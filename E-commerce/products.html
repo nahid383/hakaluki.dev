@@ -7,9 +7,7 @@
     <link rel="stylesheet" href="products.css" />
   </head>
 
-
   <body>
-   <!-- Announcement Bar -->
     <div class="top-banner">
       <p>
         100% Sustainable & Ethical Sourcing | Free Shipping on Orders Over $50
@@ -34,41 +32,38 @@
     <main>
       <section class="product-section">
         <h1>Our Products</h1>
-        <!-- Products Section -->
 
         <form class="search-bar">
           <input type="text" placeholder="Search eco essentials..." />
           <button type="submit">Search</button>
         </form>
 
-        <section id="product-section" class="product-section">
-          <div class="section-header">
-            <h3>Planet-Friendly Bestselling Products</h3>
+        <div class="section-header">
+          <h3>Planet-Friendly Bestselling Products</h3>
 
-            <p>Explore sustainable essentials curated for low-impact living.</p>
-          </div>
+          <p>
+            Explore sustainable essentials curated for low-impact living.
+          </p>
+        </div>
 
-          <!-- Product Controls -->
-          <div class="controls">
-            <!-- Filter by Category -->
-            <select id="category-filter">
-              <option value="all">All Categories</option>
-              <option value="drink">Drinkware</option>
-              <option value="cook">Cookware</option>
-              <option value="utensils">Utensils</option>
-              <option value="appliances">Appliances</option>
-            </select>
+        <div class="controls">
+          <select id="category-filter">
+            <option value="all">All Categories</option>
+            <option value="drink">Drinkware</option>
+            <option value="cook">Cookware</option>
+            <option value="utensils">Utensils</option>
+            <option value="appliances">Appliances</option>
+          </select>
 
-            <!-- Sort by Value -->
-            <select id="sort-filter">
-              <option value="featured">Sort by: Featured</option>
-              <option value="lowtohigh">Price: Low to High</option>
-              <option value="hightolow">Price: High to Low</option>
-              <option value="rating">Highest Rated</option>
-            </select>
-          </div>
+          <select id="sort-filter">
+            <option value="featured">Sort by: Featured</option>
+            <option value="lowtohigh">Price: Low to High</option>
+            <option value="hightolow">Price: High to Low</option>
+            <option value="rating">Highest Rated</option>
+          </select>
+        </div>
 
-          <!-- Product 1 -->
+        <section class="product-grid">
           <div class="product-card">
             <img
               src="images/watterBottle.jpeg"
@@ -83,10 +78,9 @@
 
             <h4>$43.85</h4>
 
-            <button class="cart">Add to Cart</button>
+            <button class="cart" type="button">Add to Cart</button>
           </div>
 
-          <!-- Product 2 -->
           <div class="product-card">
             <img
               src="images/cookingSet.jpeg"
@@ -101,10 +95,9 @@
 
             <h4>$79.35</h4>
 
-            <button class="cart">Add to Cart</button>
+            <button class="cart" type="button">Add to Cart</button>
           </div>
 
-          <!-- Product 3 -->
           <div class="product-card">
             <img
               src="images/teaPot.jpeg"
@@ -119,10 +112,9 @@
 
             <h4>$143.85</h4>
 
-            <button class="cart">Add to Cart</button>
+            <button class="cart" type="button">Add to Cart</button>
           </div>
 
-          <!-- Product 4 -->
           <div class="product-card">
             <img
               src="images/bamboo.jpeg"
@@ -137,10 +129,9 @@
 
             <h4>$26.27</h4>
 
-            <button class="cart">Add to Cart</button>
+            <button class="cart" type="button">Add to Cart</button>
           </div>
 
-          <!-- Product 5 -->
           <div class="product-card">
             <img
               src="images/riceCooker.jpeg"
@@ -155,9 +146,34 @@
 
             <h4>$112.50</h4>
 
-            <button class="cart">Add to Cart</button>
+            <button class="cart" type="button">Add to Cart</button>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="images/kitchenset.jpg"
+              alt="Reusable Kitchen Set"
+              width="350"
+              height="400"
+            />
+
+            <p>4.9/5.0</p>
+
+            <h3>Reusable Kitchen Set</h3>
+
+            <h4>$312.50</h4>
+
+            <button class="cart" type="button">Add to Cart</button>
           </div>
         </section>
+      </section>
     </main>
+
+        <footer class="footer">
+  <p>
+    © 2026 Homeline. All rights reserved. |
+    Developed & Owned by <strong>Nahid Hasan</strong>
+  </p>
+</footer>
   </body>
 </html>
